@@ -10,11 +10,11 @@ export const Route = createFileRoute("/")({
         content:
           "B.Tech AI student at AMU building multimodal deep learning and agentic AI systems. Research in Alzheimer's detection, healthcare AI and procurement agents.",
       },
-      { property: "og:title", content: "Mohammad Amaan — AI Researcher & Engineer" },
+      { property: "og:title", content: "Mohammad Amaan - AI Researcher & Engineer" },
       {
         property: "og:description",
         content:
-          "Multimodal deep learning, agentic AI and full-stack engineering. Projects, research and achievements.",
+          "B.Tech Artificial Intelligence student at Aligarh Muslim University. Multimodal Deep learning, agentic AI and full-stack engineering.",
       },
       { property: "og:type", content: "profile" },
       { name: "twitter:card", content: "summary_large_image" },
