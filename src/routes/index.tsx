@@ -275,7 +275,7 @@ function ParticleField({ density = 1 }: { density?: number }) {
         if (p.y > h) p.y = 0;
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-        ctx.fillStyle = `oklch(0.82 0.14 158 / ${p.a})`;
+        ctx.fillStyle = `oklch(0.52 0.13 158 / ${p.a})`;
         ctx.fill();
       }
       raf = requestAnimationFrame(tick);
