@@ -331,7 +331,6 @@ function SignatureIntro({ onDone }: { onDone: () => void }) {
   return (
     <div className={`intro-overlay ${stage === "leaving" ? "intro-leaving" : ""}`}>
       <ParticleField density={0.6} />
-      <div className="intro-grid" aria-hidden="true" />
       <div className="intro-content">
         <div className="intro-signature-wrap">
           <span className="intro-pen-dot" style={{ animationDuration: `${letters.length * 0.26}s` }} />
