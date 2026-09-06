@@ -452,7 +452,7 @@ function FloatingNav() {
   return (
     <nav className={`nav-float ${scrolled ? "nav-float-pill" : ""}`}>
       <a href="#top" className="nav-mark" data-cursor="">
-        M·A
+        M·Amaan
       </a>
       <div className="nav-links">
         {navItems.map((item) => (
